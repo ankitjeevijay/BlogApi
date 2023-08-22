@@ -12,7 +12,7 @@ router.get('/delete/:id', BlogController.delete)
 
 // Frant route 
 router.post('/userRegister',UserController.userRegister)
-router.get('/veryfyLogin', UserController.veryfyLogin)
+router.post('/veryfyLogin', UserController.veryfyLogin)
 
 
 
